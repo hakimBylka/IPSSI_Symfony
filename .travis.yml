@@ -1,5 +1,15 @@
 langage: 'php'
 php: 
     - '7.3'
-install: true
-script: true
+
+before_install: true
+
+install: 
+	- composer install
+
+before_script: true
+
+script: 
+	-phpunit tests
+
+after_script: true
