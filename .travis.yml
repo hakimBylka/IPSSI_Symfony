@@ -1,6 +1,6 @@
 langage: 'php'
 php: 
-    - '7.3'
+    - '7.2'
 
 before_install: true
 
