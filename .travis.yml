@@ -5,11 +5,11 @@ php:
 before_install: true
 
 install: 
-	- composer install
+    - composer install
 
 before_script: true
 
 script: 
-	-phpunit tests
+    - phpunit tests
 
 after_script: true
