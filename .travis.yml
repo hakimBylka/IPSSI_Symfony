@@ -1,0 +1,5 @@
+langage: 'php'
+php: 
+    - '7.3'
+install: false
+script: false
